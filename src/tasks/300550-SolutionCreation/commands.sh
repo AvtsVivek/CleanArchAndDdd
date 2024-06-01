@@ -14,3 +14,4 @@ code . -r
 
 # commands to create the projects, adding the references and the solution file.
 
+
