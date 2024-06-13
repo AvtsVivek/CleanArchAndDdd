@@ -1,5 +1,4 @@
 
-
 cd ../../..
 
 cd src/tasks/300550-SolutionCreation
@@ -28,16 +27,21 @@ dotnet add GymManagement.Infrastructure reference GymManagement.Application
 dotnet add GymManagement.Application reference GymManagement.Domain
 
 # Create solution file.
+
 dotnet new sln --name "GymManagement"
 
 # Add all the projects to the newly created solution
+
 dotnet sln add (ls -r **/**.csproj)
 
-## If you want to add individually all the projects.
+## If you want to add individually all the projects use the following four commands instead of the above one command.
+
 dotnet sln add GymManagement.Api
 dotnet sln add GymManagement.Application
 dotnet sln add GymManagement.Domain
 dotnet sln add GymManagement.Infrastructure
+
+
 
 
 
