@@ -1,0 +1,4 @@
+
+POST http://location:5000/products/{{productId}}
+Authorization: Bearer {{token}}
+Accept: application/json

@@ -1,0 +1,7 @@
+// a local variable, a file varible, not a global variable or environment varible.
+@token=asdf 
+
+GET http://location:5000/products/123/reviews/321
+
+Authorization: Bearer {{token}}
+Accept: application/application/json
