@@ -46,4 +46,15 @@ Add different environments as follows.
 Next open command platte(Ctrl + Shift + P) and then select rest client switch env as follows.
 
 
+![Workspace settings](images/53_50_RestClientSwitchEnvironment.jpg)
+
+Now you will see the following. Select the environment.
+
+![Workspace settings](images/54_50_SelectEnv.jpg)
+
+Now in your http file, if you hover over any variable, you can see the value of the variable as follows.
+
+![Workspace settings](images/55_50_EvnVarSet.jpg)
+
+
 
