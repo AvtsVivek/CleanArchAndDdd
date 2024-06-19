@@ -43,5 +43,9 @@ dotnet sln add GymManagement.Infrastructure
 
 
 
+dir
+
+dotnet run --project GymManagement.Api
+
 
 
